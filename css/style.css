@@ -1,0 +1,47 @@
+/* *UTILITIES* */
+
+img {
+    max-width: 100%;
+}
+
+/* *HEADER* */
+
+header {
+    min-height: 110px;
+}
+
+.rounded-4 {
+    border-radius: 15px;
+}
+
+/* *TOP-BAR */
+
+.top-bar {
+    min-height: 40px;
+    background-color: black;
+}
+
+/* *RETURNAL* */
+
+#returnal {
+    min-height: 575px;
+    background-image: url("../img/jumbo-bg.png");
+    background-color: cadetblue;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    border: 1px dashed blue;
+}
+
+/* *INFO-CARD* */
+
+#info-card .col-6 {
+    border: 1px solid black;
+}
+
+/* *CONSOLE* */
+
+.no-limits {
+    min-height: 200px;
+    border: 1px dashed orange;
+}
