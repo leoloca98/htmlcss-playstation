@@ -22,6 +22,16 @@ img {
     color: cadetblue;
 }
 
+/* BACKGROUND-COLOR */
+
+.bg-beige {
+    background-color: rgb(190, 188, 187);
+}
+
+.btn-beige {
+    background-color: rgba(190, 188, 187, 0.5);
+}
+
 /* *HEADER* */
 
 header {
@@ -83,6 +93,20 @@ header {
     border: 1px dashed blue;
 }
 
+/* *NEW RELEASES* */
+
 #new-releases {
-    min-height: 2200px;
+    border: 1px dashed blue;
+}
+
+/* *EXPLORE* */
+
+#explore {
+    border: 1px dashed blue;
+}
+
+/* *P-PLUS* */
+
+#p-plus {
+    border: 1px dashed blue;
 }
