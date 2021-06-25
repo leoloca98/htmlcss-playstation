@@ -4,14 +4,28 @@ img {
     max-width: 100%;
 }
 
+.rounded-4 {
+    border-radius: 15px;
+}
+
+.btn-pill {
+    border-radius: 25px;
+}
+
+/* COLOR */
+
+.c-grey {
+    color: darkgrey;
+}
+
+.c-blue {
+    color: cadetblue;
+}
+
 /* *HEADER* */
 
 header {
     min-height: 110px;
-}
-
-.rounded-4 {
-    border-radius: 15px;
 }
 
 /* *TOP-BAR */
@@ -41,7 +55,34 @@ header {
 
 /* *CONSOLE* */
 
-.no-limits {
-    min-height: 200px;
+#console {
+    border: 1px dashed blue;
+}
+
+#console .no-limits {
     border: 1px dashed orange;
+}
+
+#console .plus-info {
+    border: 1px dashed orange;
+}
+
+#console .accessories {
+    border: 1px dashed orange;
+}
+
+/* *IT TAKES TWO* */
+
+#it-takes-two {
+    min-height: 575px;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-color: cadetblue;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    border: 1px dashed blue;
+}
+
+#new-releases {
+    min-height: 2200px;
 }
