@@ -134,14 +134,29 @@ header {
 
 #footer {
     border: 1px dashed blue;
-    min-height: 2000px;
     background-color: rgb(0, 67, 156);
 }
 
 #ps-footer-logo {
-    min-height: 100px;
+    min-height: 180px;
 }
 
 #globe {
     max-height: 25px;
+}
+
+#footer li, #footer a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+#footer .flex-lg-row {
+    border: 1px dashed white;
+}
+
+#sie-logo {
+    max-height: 70px;
+    max-width: 150px;
 }
