@@ -38,11 +38,15 @@ header {
     min-height: 110px;
 }
 
-/* *TOP-BAR */
+/* TOP-BAR  */
 
 .top-bar {
     min-height: 40px;
     background-color: black;
+}
+
+.top-bar>img {
+    max-height: 20px;
 }
 
 /* *RETURNAL* */
