@@ -19,10 +19,14 @@ img {
 }
 
 .c-blue {
-    color: cadetblue;
+    color: rgb(0, 114, 206);
 }
 
 /* BACKGROUND-COLOR */
+
+.btn-orange {
+    background-color: rgb(205, 61, 15);
+}
 
 .bg-beige {
     background-color: rgb(190, 188, 187);
@@ -58,32 +62,15 @@ header {
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    border: 1px dashed blue;
+}
+
+#returnal>div {
+    top: 50%;
 }
 
 /* *INFO-CARD* */
 
-#info-card .col-6 {
-    border: 1px solid black;
-}
-
 /* *CONSOLE* */
-
-#console {
-    border: 1px dashed blue;
-}
-
-#console .no-limits {
-    border: 1px dashed orange;
-}
-
-#console .plus-info {
-    border: 1px dashed orange;
-}
-
-#console .accessories {
-    border: 1px dashed orange;
-}
 
 /* *IT TAKES TWO* */
 
@@ -94,50 +81,27 @@ header {
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    border: 1px dashed blue;
 }
 
 /* *NEW RELEASES* */
 
-#new-releases {
-    border: 1px dashed blue;
-}
-
 /* *EXPLORE* */
-
-#explore {
-    border: 1px dashed blue;
-}
 
 /* *P-PLUS* */
 
-#p-plus {
-    border: 1px dashed blue;
-}
-
 /* *SALES* */
-
-#sales {
-    border: 1px dashed blue;
-}
 
 /* *PS NOW* */
 
 #ps-now {
-    border: 1px dashed blue;
     background-color: rgb(22, 28, 59);
 }
 
 /* *SOCIAL* */
 
-#social {
-    border: 1px dashed blue;
-}
-
 /* *FOOTER* */
 
 #footer {
-    border: 1px dashed blue;
     background-color: rgb(0, 67, 156);
 }
 
@@ -154,10 +118,6 @@ header {
     text-decoration: none;
     color: white;
     display: flex;
-}
-
-#footer .flex-lg-row {
-    border: 1px dashed white;
 }
 
 #sie-logo {
