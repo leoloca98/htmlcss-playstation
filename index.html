@@ -21,54 +21,109 @@
             <img src="./img/sony_logo.svg" alt="Sony Logo">
         </div>
         <div class="container-fluid bot-bar">
-            <nav class="navbar navbar-expand-xl navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt="PS Logo"></a>
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/play_logo.svg" alt="PS Logo">
+                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown">
-                                    Giochi
-                                </a>
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <a class="nav-link active d-flex" href="#">Giochi
+                                            <span>
+                                                <i id="chevron" class="fas fa-chevron-down ms-2"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
-                                    Hardware
-                                </a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
-                                    Servizi
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
-                                    Novità
-                                </a>
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <a class="nav-link active d-flex ms-3" href="#">Hardware
+                                            <span>
+                                                <i id="chevron" class="fas fa-chevron-down ms-2"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
-                                    Fai acquisti
-                                </a>
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <a class="nav-link active d-flex ms-3" href="#">Servizi
+                                            <span>
+                                                <i id="chevron" class="fas fa-chevron-down ms-2"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
-                                    Supporto
-                                </a>
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <a class="nav-link active d-flex ms-3" href="#">Novità
+                                            <span>
+                                                <i id="chevron" class="fas fa-chevron-down ms-2"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <a class="nav-link active d-flex ms-3" href="#">Fai acquisti
+                                            <span>
+                                                <i id="chevron" class="fas fa-chevron-down ms-2"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <a class="nav-link active d-flex ms-3" href="#">Supporto
+                                            <span>
+                                                <i id="chevron" class="fas fa-chevron-down ms-2"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
-                        <div class="d-flex align-items-center">
-                            <a class="nav-link dropdown-toggle pe-1" href="#" id="navbarDropdown" role="button">
-                                My PlayStation
-                            </a>
-                            <input type="button" class="btn btn-pill btn-dark" value="Accedi">
-                            <span class="ms-1"><i class="fas fa-search"></i></span>
+                        <div class="bot-bar-right">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li>
+                                    <div class="row align-items-center">
+                                        <div class="col">
+                                            <a class="nav-link active d-flex" href="#">My Playstation
+                                                <span>
+                                                    <i id="chevron" class="fas fa-chevron-down"></i>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <input type="button" class="btn btn-pill btn-dark mx-4" value="Accedi">
+                                </li>
+                                <li>
+                                    <div class="row align-items-center">
+                                        <div class="col">
+                                            <span class="ms-1"><i class="fas fa-search pt-2 fs-5"></i></span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -128,7 +183,7 @@
             <p class="c-grey fs-3">Tuffati in nuove possibilità di gioco completamente inaspettate</p>
         </div>
         <div class="plus-info text-center text-md-start py-4">
-            <div class="row d-flex flex-column flex-md-row">
+            <div class="row d-flex flex-column flex-md-row align-items-md-center">
                 <div class="col">
                     <h2 class="display-1 fw-normal">Console Playstation 5</h2>
                     <p class="c-grey fs-3">Sperimenta la nuova generazione di incredibili giochi Playstation</p>
@@ -140,8 +195,8 @@
             </div>
         </div>
         <div class="accessories">
-            <div class="row d-flex flex-wrap">
-                <div class="col-4 offset-md-1 col-md-2"><a href="#"><img src="./img/playstation-5-thumb.png"
+            <div class="row d-flex justify-content-between">
+                <div class="col-4 offset-md-1 col-md-2 offset-lg-0"><a href="#"><img src="./img/playstation-5-thumb.png"
                             alt="PS5"></a></div>
                 <div class="col-4 col-md-2"><a href="#"><img src="./img/joypad-thumb.png" alt="Joypad 5"></a>
                 </div>
@@ -156,7 +211,7 @@
     <!-- *IT TAKES TWO* -->
     <section id="it-takes-two" class="jumbotron text-white">
         <div class="container">
-            <div class="row row-height flex-column justify-content-center">
+            <div class="row row-height flex-column justify-content-center py-5">
                 <div class="col-7 col-xl-5 pb-3">
                     <img src="./img/it-takes-two-logo.png" alt="It Takes Two banner">
                 </div>
@@ -301,7 +356,7 @@
         </div>
         <div class="row flex-column flex-md-row">
             <div class="col col-md-4 py-5">
-                <div class="row d-flex flex-column">
+                <div class="row flex-column">
                     <div class="col">
                         <a href="#">
                             <img src="./img/ps4-slim-homepage-image-block.jpg" alt="PS4">
@@ -312,8 +367,10 @@
                             <h2 class="display-3">Playstation 4</h2>
                             <p class="fs-3 c-grey">Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.
                             </p>
-                            <input type="button" class="btn btn-pill btn-primary" value="Scopri di più">
                         </div>
+                    </div>
+                    <div class="col">
+                        <input type="button" class="btn btn-pill btn-primary" value="Scopri di più">
                     </div>
                 </div>
             </div>
@@ -329,8 +386,10 @@
                             <h2 class="display-3">Playstation VR</h2>
                             <p class="fs-3 c-grey">Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.
                             </p>
-                            <input type="button" class="btn btn-pill btn-primary" value="Scopri di più">
                         </div>
+                    </div>
+                    <div class="col align-self-end">
+                        <input type="button" class="btn btn-pill btn-primary" value="Scopri di più">
                     </div>
                 </div>
             </div>
@@ -346,8 +405,10 @@
                             <h2 class="display-3">Accessori</h2>
                             <p class="fs-3 c-grey">Migliora la tua esperienza PS4 con una gamma di accessori ufficiali.
                             </p>
-                            <input type="button" class="btn btn-pill btn-primary" value="Scopri di più">
                         </div>
+                    </div>
+                    <div class="col">
+                        <input type="button" class="btn btn-pill btn-primary" value="Scopri di più">
                     </div>
                 </div>
             </div>
@@ -386,7 +447,7 @@
                 un
                 unico posto.</p>
         </div>
-        <div class="row d-flex flex-column flex-md-row py-md-5">
+        <div class="row d-flex flex-column flex-md-row py-md-3">
             <div class="col col-md-4 py-4">
                 <a href="#"><img src="./img/playstation-store-games-under-20-spotlight.jpg" alt="SALES"></a>
             </div>
@@ -400,18 +461,20 @@
     </section>
 
     <!-- *PS NOW* -->
-    <section id="ps-now" class="py-5">
+    <section id="ps-now">
         <div class="container">
             <div class="row ustify-content-center align-items-center">
                 <div class="col col-md-6 text-white">
                     <div class="row">
                         <div class="col-7"><img src="/img/ps-now-logo-two-column.png" alt="Logo PS NOW"></div>
                     </div>
-                    <p class=" py-4">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4,
+                    <p class="pt-5 pb-3">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per
+                        PS4,
                         PS3
                         e PS2 su PS4 o
-                        PC Windows, con nuovi titoli aggiunti ogni mese.</p>
-                    <input type="button" class="btn btn-pill btn-light" value="Esplora Playstation Now">
+                        PC Windows, con nuovi titoli aggiunti ogni mese.
+                    </p>
+                    <input type="button" class="btn btn-pill btn-light fw-bold" value="Esplora Playstation Now">
                 </div>
                 <div class="d-none d-md-flex col-md-6">
                     <img src="./img/ps-now-april-featured-image-block.png" alt="PS NOW">
