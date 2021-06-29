@@ -137,35 +137,17 @@ img {
     background-color: rgb(223, 223, 211);
 }
 
-/* *HEADER* */
-
 /* *RETURNAL* */
 
 #returnal {
     background-image: url("../img/jumbo-bg.png");
 }
 
-/* *INFO-CARD* */
-
-/* *CONSOLE* */
-
 /* *IT TAKES TWO* */
 
 #it-takes-two {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
 }
-
-/* *NEW RELEASES* */
-
-/* *EXPLORE* */
-
-/* *P-PLUS* */
-
-/* *SALES* */
-
-/* *PS NOW* */
-
-/* *SOCIAL* */
 
 /* *FOOTER* */
 
@@ -188,6 +170,10 @@ img {
     max-height: 70px;
     max-width: 150px;
 }
+
+/* ! XL ViewPort */
+
+/* *Fix Font Weight of Header* */
 
 @media screen and (min-width:1200px) {
     #header a {
